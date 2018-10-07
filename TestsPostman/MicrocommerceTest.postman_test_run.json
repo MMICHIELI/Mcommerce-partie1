@@ -1,0 +1,546 @@
+{
+	"id": "482536b5-4388-46c0-b24a-6648aa2b51db",
+	"name": "MicrocommerceTest",
+	"allTests": [],
+	"timestamp": "2018-10-07T19:38:02.498Z",
+	"collection_id": "2accc77b-856d-475b-895c-fd589cf6fd25",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "2accc77b-856d-475b-895c-fd589cf6fd25",
+		"name": "MicrocommerceTest",
+		"description": "Teste les Méthodes présentes dans ProductController",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"dd85e946-addd-405b-943e-66e37c519492",
+			"a7f7ce9a-c25f-46a1-bdd0-ed83de4b3e08",
+			"66863b4b-a161-4548-858d-ce0806e33457",
+			"2478b557-a3e6-49d4-9dad-dafb8aad1b96",
+			"980b9ec5-7c7f-4cc2-ac46-77b83765b4e6",
+			"6100681f-49bd-4a33-9832-50eaf19949ea",
+			"3a78b055-cebb-4d2a-8599-eff7667137fb",
+			"cd3b8d1e-7067-4190-800e-b52d0e9815b4",
+			"831ca8f6-9e4e-4573-b406-cee3f711d6ce"
+		],
+		"folders_order": [],
+		"owner": "5369007",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Liste des Produits",
+			"id": "dd85e946-addd-405b-943e-66e37c519492",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"124"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "124",
+			"totalRequestTime": "124",
+			"iterationResults": {}
+		},
+		{
+			"name": "Afficher un Produit",
+			"id": "a7f7ce9a-c25f-46a1-bdd0-ed83de4b3e08",
+			"url": "http://localhost:9090/Produits/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"16"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "16",
+			"totalRequestTime": "16",
+			"iterationResults": {}
+		},
+		{
+			"name": "Afficher un Produit 2",
+			"id": "66863b4b-a161-4548-858d-ce0806e33457",
+			"url": "http://localhost:9090/Produits/2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"5"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "5",
+			"totalRequestTime": "5",
+			"iterationResults": {}
+		},
+		{
+			"name": "Afficher un Produit 3",
+			"id": "2478b557-a3e6-49d4-9dad-dafb8aad1b96",
+			"url": "http://localhost:9090/Produits/3",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"6"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "6",
+			"totalRequestTime": "6",
+			"iterationResults": {}
+		},
+		{
+			"name": "Créer un Produit",
+			"id": "980b9ec5-7c7f-4cc2-ac46-77b83765b4e6",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Successful POST request",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"59"
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			],
+			"time": "59",
+			"totalRequestTime": "59",
+			"iterationResults": {}
+		},
+		{
+			"name": "Créer un Produit Exception",
+			"id": "6100681f-49bd-4a33-9832-50eaf19949ea",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 406,
+				"name": "Not Acceptable",
+				"detail": {
+					"name": "Not Acceptable",
+					"detail": "The requested resource is only capable of generating content not acceptable according to the Accept headers sent in the request."
+				}
+			},
+			"tests": {
+				"name": "Not Accrptable POST request",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Not Accrptable POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"17"
+			],
+			"allTests": [
+				{
+					"Not Accrptable POST request": true
+				}
+			],
+			"time": "17",
+			"totalRequestTime": "17",
+			"iterationResults": {}
+		},
+		{
+			"name": "Créer un Produit 5",
+			"id": "3a78b055-cebb-4d2a-8599-eff7667137fb",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Successful POST request",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		},
+		{
+			"name": "Supprimer un Produit",
+			"id": "cd3b8d1e-7067-4190-800e-b52d0e9815b4",
+			"url": "http://localhost:9090/Produits/5",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"15"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "15",
+			"totalRequestTime": "15",
+			"iterationResults": {}
+		},
+		{
+			"name": "Mettre à jour un Produit",
+			"id": "831ca8f6-9e4e-4573-b406-cee3f711d6ce",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 9,
+	"totalFail": 0,
+	"totalTime": 256,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Liste des Produits",
+			"id": "dd85e946-addd-405b-943e-66e37c519492",
+			"url": "http://localhost:9090/Produits",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Afficher un Produit",
+			"id": "a7f7ce9a-c25f-46a1-bdd0-ed83de4b3e08",
+			"url": "http://localhost:9090/Produits/1",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Afficher un Produit 2",
+			"id": "66863b4b-a161-4548-858d-ce0806e33457",
+			"url": "http://localhost:9090/Produits/2",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Afficher un Produit 3",
+			"id": "2478b557-a3e6-49d4-9dad-dafb8aad1b96",
+			"url": "http://localhost:9090/Produits/3",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Créer un Produit",
+			"id": "980b9ec5-7c7f-4cc2-ac46-77b83765b4e6",
+			"url": "http://localhost:9090/Produits",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Créer un Produit Exception",
+			"id": "6100681f-49bd-4a33-9832-50eaf19949ea",
+			"url": "http://localhost:9090/Produits",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 406,
+				"name": "Not Acceptable",
+				"detail": {
+					"name": "Not Acceptable",
+					"detail": "The requested resource is only capable of generating content not acceptable according to the Accept headers sent in the request."
+				}
+			},
+			"testPassFailCounts": {
+				"Not Accrptable POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Créer un Produit 5",
+			"id": "3a78b055-cebb-4d2a-8599-eff7667137fb",
+			"url": "http://localhost:9090/Produits",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Supprimer un Produit",
+			"id": "cd3b8d1e-7067-4190-800e-b52d0e9815b4",
+			"url": "http://localhost:9090/Produits/5",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Mettre à jour un Produit",
+			"id": "831ca8f6-9e4e-4573-b406-cee3f711d6ce",
+			"url": "http://localhost:9090/Produits",
+			"time": "2018-10-07T19:38:02.498Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
